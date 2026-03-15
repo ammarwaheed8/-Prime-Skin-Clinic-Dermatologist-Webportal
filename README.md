@@ -39,7 +39,7 @@ This repo serves as a **portfolio showcase** of the delivered client project.
 
 ## 🗂️ Live Pages
 
-| Website live link: (https://www.primeskincaremd.com/)
+| Website Live Link](https://www.primeskincaremd.com/)
 
 | Page | File | Description |
 |------|------|-------------|
