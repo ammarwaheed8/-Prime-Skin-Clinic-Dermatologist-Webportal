@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <title>Newsletter</title>
+<style>
+html, body {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0; padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #292826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  max-width: 650px;
+}
+
+#logo {
+  border: 2px solid #d3a120;
+  width: 300px; 
+  height: auto;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+#subs-mark {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  animation: levitate 1.8s ease-in-out infinite;
+}
+
+@keyframes levitate {
+  0%   { transform: translateY(15px); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(15px); }
+}
+
+#informed {
+  font-family: "Marcellus SC", serif;
+  color: #F9D342;
+  font-size: 3.2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#message {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0;
+}
+
+#home-btn {
+  font-family: "DM Sans", sans-serif;
+  color: #f9d342 !important;
+  text-decoration: none;
+  border: 1px solid #f9d342;
+  border-radius: 20px 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 6px 16px;
+  margin: 30px 0 10px 0;
+}
+
+
+/* -------- 430px Max Responsive Styles -------- */
+@media only screen and (max-width: 440px) {
+
+.frame {padding: 10px;}
+
+#logo {width: 230px;}
+
+#subs-mark {width: 65px;}
+
+#informed {font-size: 2.8em;}
+
+#message {font-size: 1.3em;}
+
+}
+
+/* -------- 360px Max Responsive Styles -------- */
+@media only screen and (max-width: 360px) {  
+
+.frame {padding: 10px;}
+
+#logo {width: 200px;}
+
+#subs-mark {width: 60px;}
+
+#informed {font-size: 2.5em;}
+
+#message {font-size: 1.2em;}
+
+}
+
+/* -------- 320px Max Responsive Styles -------- */
+@media only screen and (max-width: 320px) {
+
+body {overflow: scroll; padding: 200px 20px 20px 20px;}}
+
+
+</style>
+  </head>
+  <body>
+    <div class="frame">
+      <img src="img/header-logo.png" alt="logo" id="logo"/>
+      <img src="img/nl.png" alt="subs-mark-img" id="subs-mark">
+      <h1 id="informed">Subscribed!</h1>
+      <p id="message">
+        You have successfully subscribed to our newsletter! Get ready to stay in the
+        loop with exclusive updates, exciting offers, and unbeatable discounts
+        delivered straight to your inbox!
+      </p>
+      <a href="index.html" id="home-btn">Back To Home</a>
+    </div>
+    <script>
+
+    </script>
+  </body>
+</html>
